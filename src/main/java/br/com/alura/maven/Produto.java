@@ -17,4 +17,8 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
     }
+
+	public double getPrecoComImposto() {
+		return preco * 1.1;
+	}
 }
